@@ -4,20 +4,26 @@
     padding: 0;
 }
 
+:root {
+    --secundary-font: 18px;
+    --primary-color: #265073;
+    --secundary-color: #F1FADA;
+}
+
 header {
     padding: 16px 0;
-    background-color: #265073;
-    color: #F1FADA;
+    background-color: var(--primary-color);
+    color: var(--secundary-color);
 }
 
 header nav li {
     display: inline;
     margin-left: 10px;
-    font-size: 18px;
+    font-size: var(--secundary-font)
 }
 
 header nav li a {
-    color: #F1FADA;
+    color: var(--secundary-color);
     text-decoration: none;
 }
 

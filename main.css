@@ -8,6 +8,17 @@
     --secundary-font: 18px;
     --primary-color: #265073;
     --secundary-color: #F1FADA;
+    --font-primary: "Roboto", sans-serif;
+    --font-secundary: "Roboto Slab", serif;
+}
+
+header,
+section h2 {
+    font-family: var(--font-secundary);
+}
+
+body {
+    font-family: var(--font-primary);
 }
 
 header {
@@ -33,8 +44,44 @@ header nav li a {
     margin: 0 auto;
 }
 
-header .container {
+header .container,
+section .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.brands-list img {
+    height: 40px;
+}
+
+.brands-list li {
+    display: inline;
+    text-decoration: none;
+    margin-right: 8px;
+}
+
+.my-image {
+    height: 400px;
+    margin-right: 32px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    color: var(--primary-color);
+}
+
+section p {
+    margin-bottom: 8px;
 }

@@ -174,7 +174,7 @@ footer {
     }
 
     section .container {
-        display: block !important;
+        display: block;
         align-items: center;
         justify-content: space-between;
 }
@@ -188,14 +188,14 @@ footer {
     }
 
     
-form input,
-form textarea,
-form button {
-    display: block;
-    width: 90%;
-    padding: .2em;
-}
-form button {
-    margin-bottom: 3em;
-}
+    form input,
+    form textarea,
+    form button {
+        display: block;
+        width: 90%;
+        padding: .2em;
+    }
+    form button {
+        margin-bottom: 3em;
+    }
 }   
